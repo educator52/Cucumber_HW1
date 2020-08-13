@@ -1,0 +1,35 @@
+Instructions from your teacher:
+NOTE: For each cucumber homework you should create a feature file step definition
+ and for the different classes there should be page classes as well.
+
+
+Navigate to:  http://automationpractice.com/index.php
+Click on sign in button
+Enter the Email Address and Password (Create your own account from left side)
+Click on sign in button
+Click on the " My personal information "
+
+Change the first name
+
+Enter the currentPassword
+Enter the new password
+Enter the Confirmation
+
+NOTE: Do not change the password if you change it then other test cases will fail
+
+Click on the save button
+
+Verify the name on the top right is updated as your first name
+
+Click on the " My personal information "
+
+Change the first name as the previous name in the first time
+
+Enter the currentPassword
+Enter the new password
+Enter the Confirmation
+
+Click on the save button
+
+Verify the name on the top right is updated as your first name
+

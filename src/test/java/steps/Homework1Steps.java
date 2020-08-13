@@ -5,30 +5,20 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import poms.Homework1POM;
+import utils.BaseDriver;
 
-public class Homework1Steps {
+public class Homework1Steps extends BaseDriver {
 
-    private WebDriver driver;
-    private Homework1POM pom;
-    private String email;
-    private String password;
+
+    private Homework1POM pom = new Homework1POM(driver);
+
 
     @Given("^I navigate to \"([^\"]*)\"$")
     public void i_navigate_to(String URL) {
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        pom = new Homework1POM(driver);
-        email = "group2@gmail.com";
-        password = "group2";
-
         driver.get(URL);
         driver.manage().window().maximize();
     }

@@ -1,0 +1,37 @@
+Instructions from your teacher:
+NOTE: For each cucumber homework you should create a feature file step definition
+and for the different classes there should be page classes as well.
+
+Navigate to:  http://automationpractice.com/index.php
+Click on sign in button
+Enter the Email Address and Password (Create your own account from left side)
+Click on sign in button
+
+Click on the dresses
+
+Click on the any item from the page
+
+Click on the add to cart
+
+Click on the proceed to checkout button
+
+Verify Total products + Total shipping = Total
+
+Click on the proceed to checkout button
+
+If you dont have the address yet you need to create one
+
+If you have it click Click on the proceed to checkout button
+
+Click on the "I agree...." checkbox
+
+Click on the proceed to checkout button
+
+Click on the Pay by bank wire
+
+Click on the I confirm my order button
+
+Verify Order confirmation text  is displayed
+
+
+

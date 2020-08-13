@@ -1,4 +1,4 @@
-Feature: Homework_1 Login Test
+Feature: Homework_1 Password Test
 
   Scenario: Successful change name in automationpractice.com
     Given I navigate to "http://automationpractice.com/index.php"
